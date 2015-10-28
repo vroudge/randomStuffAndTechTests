@@ -181,7 +181,6 @@ console.log("-------------------------------------------");
 console.log("---------------- CAS 2 --------------------");
 residence.buildingList[3].floorList[0].appartList[0].jacuzzi = 1;
 residence.buildingList[3].floorList[0].appartList[0].recalculateConsommation();
-residence.recalculate();
 mousson();
 console.log("-------------------------------------------");
 
